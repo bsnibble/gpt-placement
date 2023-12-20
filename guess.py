@@ -23,7 +23,7 @@ def run_javascript(url, js_code):
 
 def query_gpt(prompt_system, prompt_user):
     # Replace with your OpenAI API key
-    client = OpenAI(api_key='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')
+    client = OpenAI(api_key='...') # add your API key here
     response = client.chat.completions.create(
         model="gpt-3.5-turbo-1106", 
         messages=[
